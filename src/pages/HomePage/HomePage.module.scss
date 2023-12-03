@@ -1,0 +1,25 @@
+.HomePage {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin: 0;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    font-size: clamp(20px, 4vw, 38px);
+    font-family: 'Inter', Arial, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', Verdana;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    @media (max-width: 720px) {
+      text-align: left;
+    }
+  }
+
+}
