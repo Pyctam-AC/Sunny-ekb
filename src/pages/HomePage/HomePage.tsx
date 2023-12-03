@@ -1,7 +1,7 @@
 import {FC} from 'react';
 import styles from './HomePage.module.scss'
 import { NavSocialLinks } from '../../components/navSocialLinks/navSocialLink';
-import PromoVideo from '../../components/promoVideo/promoVideo';
+import PromoVideo from '../../components/promoVideo/PromoVideo';
 
 const HomePage: FC = () => {
 
