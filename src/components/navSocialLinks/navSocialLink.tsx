@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import { linkSocialArray } from '../../utils/linksSocial';
+import { linkSocialArray } from '../../constans/linksSocial';
 import styles from './NavSocialLinks.module.scss'
 
 

@@ -29,7 +29,7 @@ const PromoVideo: FC = () => {
       if (videoElement) {
         videoElement.play();
       }
-    }, 3000);
+    }, 1000);
 
     // Очищаем таймаут и обработчики событий при размонтировании компонента
     return () => {
