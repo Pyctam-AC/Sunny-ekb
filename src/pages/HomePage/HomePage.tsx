@@ -10,7 +10,7 @@ const HomePage: FC = () => {
   return (
     <main className={styles.HomePage}>
       <h1 className={styles.HomePage__title}>Солнечный район</h1>
-      <PromoVideo />
+      {/* <PromoVideo /> */}
       <NavSocialLinks />
       <MainNavigation />
     </main>

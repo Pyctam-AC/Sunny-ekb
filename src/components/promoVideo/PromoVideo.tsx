@@ -1,6 +1,6 @@
 import { FC, useEffect, useRef } from 'react';
 import styles from './PromoVideo.module.scss';
-import videoSrc from '../../assets/videos/video_schastlivaya_2.mp4';
+import videoSrc from '../../../public/videos/video_schastlivaya_2.mp4';
 
 const PromoVideo: FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
