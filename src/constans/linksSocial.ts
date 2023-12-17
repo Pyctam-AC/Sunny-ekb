@@ -1,3 +1,6 @@
+import VC_LOGO from "../assets/images/socialIcons/VK.svg";
+import TG_LOG from "../assets/images/socialIcons/Telegram.svg"
+
 export interface linkSocial {
   id: number;
   imageUrl: string;
@@ -8,13 +11,13 @@ export interface linkSocial {
 export const linkSocialArray: linkSocial[] = [
   {
     id: 1,
-    imageUrl: import.meta.env.BASE_URL + '/public/images/socialIcons/VK.svg',
+    imageUrl: VC_LOGO,
     linkUrl: 'https://vk.com/sunny_ekb1',
     title: 'мы ВКонтакте'
   },
   {
     id: 2,
-    imageUrl: import.meta.env.BASE_URL + '/public/images/socialIcons/Telegram.svg',
+    imageUrl: TG_LOG,
     linkUrl: 'https://t.me/Sunny_ekb1',
     title: 'канал в Telegram'
   },

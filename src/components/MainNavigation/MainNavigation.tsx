@@ -15,7 +15,7 @@ const MainNavigation: React.FC = () => {
               <li key={index}>
                 <Link
                   to={item.path}
-                  className={styles.MainNavigationNavContainerLink}
+                  className={`${styles.MainNavigationNavContainerLink} ${index % 2 === 0 ? styles.odd : styles.even} ${index === MainNavigationLinks.length - 1 ? styles.last : ''}`}
                   >
                     {item.title}
 

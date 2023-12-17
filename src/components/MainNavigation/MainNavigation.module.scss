@@ -26,7 +26,6 @@
         width: 290px;
         height: 120px;
         border-radius: 8px;
-        background: #808080;
         color: #FFF;
         text-align: center;
         font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -35,12 +34,21 @@
         font-weight: 500;
         line-height: 40px;
         text-decoration: none;
-
-        :last-child {
-          margin-bottom: 0;
-        }
-
       }
     }
   }
+}
+
+.even {
+  background-color: #76A05E; /* Цвет для четных элементов */
+}
+
+.odd {
+  background-color: #F7A110; /* Цвет для нечетных элементов */
+
+}
+
+.last {
+  /* Стили для последнего элемента */
+  margin-bottom: 0; /*убрать нижний отступ */
 }
