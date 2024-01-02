@@ -5,7 +5,7 @@ export interface NavigationItem {
 
 export const MainNavigationLinks: NavigationItem[] = [
   {
-    title: 'Что есть в районе',
+    title: 'На районе',
     path: '/nearby',
   },
   {
