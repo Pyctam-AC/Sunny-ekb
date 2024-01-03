@@ -8,11 +8,13 @@ import MainNavigation from '../../components/MainNavigation/MainNavigation';
 const HomePage: FC = () => {
 
   return (
-    <main className={styles.HomePage}>
-      <h1 className={styles.HomePage__title}>Солнечный район</h1>
+    <div className={styles.HomePage}>
+      <div className={styles.HomePage__containerTitle}>
+         <h1 className={styles.HomePage__containerTitle__title}>Солнечный район</h1>
+      </div>
       <MainNavigation />
       <NavSocialLinks />
-    </main>
+    </div>
   )
 }
 

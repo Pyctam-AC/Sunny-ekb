@@ -1,7 +1,8 @@
 import {FC} from 'react';
+import { Route, Routes } from 'react-router-dom';
 import styles from './App.module.scss';
 import HomePage from '../../pages/HomePage/HomePage';
-import { Route, Routes } from 'react-router-dom';
+import CatalogServices from '../../pages/CatalogServices/CatalogServices';
 
 
 const App: FC = () => {
@@ -9,7 +10,8 @@ const App: FC = () => {
   return (
     <main className={styles.App}>
       <Routes>
-        <Route path='/Sunny-ekb/' element={<HomePage />} />
+        <Route path='/sunny-ekb/' element={<HomePage />}/>
+        <Route path='/catalogservices' element={<CatalogServices />}/>
       </Routes>
     </main>
   )

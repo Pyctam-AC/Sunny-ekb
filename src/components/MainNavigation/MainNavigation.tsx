@@ -1,12 +1,12 @@
 import React from 'react';
 import {NavigationItem, MainNavigationLinks} from "../../constans/MainNavigationLinks";
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from './MainNavigation.module.scss';
 
 
 const MainNavigation: React.FC = () => {
   return (
-    <Router>
+
       <div className={styles.MainNavigation}>
         {/* Навигационные ссылки */}
         <nav className={styles.MainNavigationNav}>
@@ -28,7 +28,7 @@ const MainNavigation: React.FC = () => {
         {/* Маршруты */}
         {/* <AppRoutes navigationData={navigationData} /> */}
       </div>
-    </Router>
+
   );
 };
 

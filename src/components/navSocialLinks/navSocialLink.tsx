@@ -12,7 +12,8 @@ export const NavSocialLinks: FC = () => {
           key={social.id}
           className={styles.navSocialLinks__linkContainer}
           >
-          <a href={social.linkUrl}
+          <a
+            href={social.linkUrl}
             target="_blank"
             rel="noopener noreferrer"
             title={social.title}
