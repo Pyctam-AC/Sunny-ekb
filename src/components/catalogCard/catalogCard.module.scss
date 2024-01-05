@@ -1,0 +1,22 @@
+.CatalogCard {
+  margin: 10px 10px;
+  padding: 16px;
+  display: flex;
+  width: 150px;
+  height: 120px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 8px;
+  background: #FFF;
+
+  &Title {
+  color: #2C555B;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  }
+
+}
+

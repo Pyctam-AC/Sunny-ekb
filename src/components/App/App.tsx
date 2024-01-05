@@ -11,7 +11,7 @@ const App: FC = () => {
     <main className={styles.App}>
       <Routes>
         <Route path='/sunny-ekb/' element={<HomePage />}/>
-        <Route path='/catalogservices' element={<CatalogServices />}/>
+        <Route path='/sunny-ekb/catalogservices' element={<CatalogServices />}/>
       </Routes>
     </main>
   )

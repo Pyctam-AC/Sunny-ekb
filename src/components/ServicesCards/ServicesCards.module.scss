@@ -1,0 +1,29 @@
+.ServicesCards {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &Titile {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #2C555B;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  &Container {
+  margin: 0 auto;
+  /* padding: 0 5px 0 5px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+}

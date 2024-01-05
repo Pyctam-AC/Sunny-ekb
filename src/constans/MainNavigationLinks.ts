@@ -6,7 +6,7 @@ export interface NavigationItem {
 export const MainNavigationLinks: NavigationItem[] = [
   {
     title: 'На районе',
-    path: '/catalogservices',
+    path: '/sunny-ekb/catalogservices',
   },
   {
     title: 'О районе',

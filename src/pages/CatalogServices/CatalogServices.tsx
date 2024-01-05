@@ -1,11 +1,12 @@
 import { FC } from "react";
+import styles from "./CatalogServices.module.scss"
 import ServicesCards from "../../components/ServicesCards/ServicesCards";
+
 
 const CatalogServices:FC = () => {
 
   return (
-    <div>
-      <h2>На районе</h2>
+    <div className={styles.CatalogServices}>
       <ServicesCards />
     </div>
   )

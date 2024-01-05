@@ -20,5 +20,13 @@ export const catalogServices: catalogItem[] = [
     id: 4,
     title: 'Для животных',
   },
+  {
+    id: 5,
+    title: 'Цветы',
+  },
+  {
+    id: 6,
+    title: 'Торты и сладости',
+  },
 ]
 
