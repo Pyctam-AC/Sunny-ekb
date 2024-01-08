@@ -7,7 +7,7 @@ const ServicesCards:FC = () => {
 
   return (
     <section className={styles.ServicesCards}>
-      <h2 className={styles.ServicesCardsTitile}>На районе</h2>
+      <h2 className={styles.ServicesCardsTitile}>Услуги в Солнечном</h2>
       <ul className={styles.ServicesCardsContainer}>
         {catalogServices.map((item: catalogItem) => (
           <li key={item.id}>

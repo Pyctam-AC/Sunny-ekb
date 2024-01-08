@@ -1,6 +1,6 @@
 import { FC, useEffect, useRef } from 'react';
 import styles from './PromoVideo.module.scss';
-import videoSrc from '../../../public/videos/video_schastlivaya_2.mp4';
+import videoSrc from '../../assets/videos/video_schastlivaya_2.mp4';
 
 const PromoVideo: FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -40,13 +40,14 @@ const PromoVideo: FC = () => {
   }, []);
 
   return (
-    <video
-      ref={videoRef}
-      className={styles.PromoVideo}
-      /* controls */ preload="metadata">
-      <source src={videoSrc} type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+    <div className={styles.containerVideo}>
+      <video
+        ref={videoRef}
+        className={styles.PromoVideo}
+        /* controls */ preload="metadata">
+        <source src={videoSrc} type="video/mp4" />
+      </video>
+    </div>
   );
 };
 

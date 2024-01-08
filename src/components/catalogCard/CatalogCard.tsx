@@ -6,11 +6,11 @@ import { catalogItem } from "../../constans/catalogServices";
 const СatalogCard:FC<catalogItem> = ({title}) => {
 
   return (
-    <div className={styles.CatalogCard}>
+    <nav className={styles.CatalogCard}>
       <h3
         className={styles.CatalogCardTitle}
       >{title}</h3>
-    </div>
+    </nav>
 
   )
 

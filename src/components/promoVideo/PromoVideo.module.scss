@@ -1,21 +1,20 @@
+.containerVideo {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .PromoVideo {
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
   width: 100%;
   height: auto;
-  max-width: 1240px;
+
+  @media screen and (min-width: 540px) {
+    max-width: 80%;
 }
 
-
-@media screen and (max-width: 1240px) {
-  .PromoVideo {
-    max-width: 90%;
-  }
 }
 
-@media screen and (max-width: 540px) {
-  .PromoVideo {
-    padding: 0 0;
-    max-width: 100%;
-  }
-}

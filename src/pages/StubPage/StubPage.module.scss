@@ -1,0 +1,13 @@
+.StubPage {
+  margin: 0 auto;
+  padding: 0;
+
+  &Title {
+    text-align: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
+}
